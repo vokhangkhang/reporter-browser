@@ -1,0 +1,31 @@
+{
+  "origin": "https://pm.example.com",
+  "project": "demo-project",
+  "assignee": "demo.user",
+  "collectedAt": "2026-10-31T00:00:00Z",
+  "period": "2026-10",
+  "complete": true,
+  "entries": [
+    {
+      "workKey": "demo-user:2026-10-05:1:work-a",
+      "date": "2026-10-05",
+      "ref": "#1",
+      "hours": 1.5,
+      "sourceUrl": "https://workspace.example.com/archives/DEMO/p1234567890"
+    },
+    {
+      "workKey": "demo-user:2026-10-06:2:work-b",
+      "date": "2026-10-06",
+      "ref": "#2",
+      "hours": null,
+      "sourceUrl": "https://workspace.example.com/archives/DEMO/p1234567891"
+    },
+    {
+      "workKey": "demo-user:2026-09-30:3:boundary",
+      "date": "2026-09-30",
+      "ref": "#3",
+      "hours": 2,
+      "sourceUrl": "https://workspace.example.com/archives/DEMO/p1234567892"
+    }
+  ]
+}
