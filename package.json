@@ -1,0 +1,30 @@
+{
+  "name": "reporter-browser",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Configurable local Chrome UI reporting workspace for Codex",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "doctor": "node scripts/doctor.mjs",
+    "chrome:start": "node scripts/chrome-start.mjs",
+    "chrome:check": "node scripts/chrome.mjs check",
+    "chrome:personal": "node scripts/chrome.mjs personal",
+    "chrome:automation": "node scripts/chrome.mjs automation",
+    "chrome:login": "node scripts/chrome.mjs automation --keep-open",
+    "pm:ui": "node scripts/pm-ui.mjs",
+    "pm:sprints:ui": "node scripts/pm-sprints-ui.mjs",
+    "pm:report": "node scripts/pm-report-sprints.mjs",
+    "demo": "node scripts/demo.mjs",
+    "test": "node --test",
+    "share:check": "node scripts/prepare-github.mjs --check",
+    "share:prepare": "node scripts/prepare-github.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.61.0"
+  },
+  "license": "MIT"
+}

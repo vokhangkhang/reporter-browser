@@ -1,0 +1,27 @@
+{
+  "chrome": {
+    "executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "profilePath": ".local/chrome-automation",
+    "cdpUrl": "http://127.0.0.1:9223"
+  },
+  "pm": {
+    "origin": "https://pm.example.com",
+    "project": "demo-project",
+    "sprints": [{ "slug": "sprint-1", "name": "Sprint 1" }],
+    "assignee": "demo.user",
+    "pointField": "Point",
+    "doneStatuses": ["Done"]
+  },
+  "report": {
+    "period": "2026-10",
+    "pmSnapshot": ".local/pm-sprints-ui.json",
+    "slackSnapshot": null,
+    "driveSnapshot": null,
+    "output": ".local/reports/report.md"
+  },
+  "sources": {
+    "slackChannelUrl": "",
+    "slackUserId": "",
+    "driveFolderUrl": ""
+  }
+}

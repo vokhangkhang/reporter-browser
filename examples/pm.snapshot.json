@@ -1,0 +1,103 @@
+{
+  "origin": "https://pm.example.com",
+  "project": "demo-project",
+  "assignee": "demo.user",
+  "collectedAt": "2026-10-31T00:00:00Z",
+  "pointField": "Point",
+  "complete": true,
+  "errors": [],
+  "sprints": [
+    {
+      "slug": "sprint-1",
+      "number": "sprint-1",
+      "name": "Sprint 1",
+      "url": "https://pm.example.com/project/demo-project/taskboard/sprint-1",
+      "openTasks": 1,
+      "closedTasks": 2,
+      "cards": [
+        {
+          "ref": "#1",
+          "subject": "Demo task 1",
+          "assignees": [
+            "demo.user"
+          ],
+          "status": "Done"
+        },
+        {
+          "ref": "#2",
+          "subject": "Demo task 2",
+          "assignees": [
+            "demo.user"
+          ],
+          "status": "In Testing"
+        },
+        {
+          "ref": "#3",
+          "subject": "Demo task 3",
+          "assignees": [
+            "demo.user"
+          ],
+          "status": "Done"
+        }
+      ],
+      "mine": [
+        {
+          "ref": "#1",
+          "subject": "Demo task 1",
+          "assignees": [
+            "demo.user"
+          ],
+          "status": "Done"
+        },
+        {
+          "ref": "#2",
+          "subject": "Demo task 2",
+          "assignees": [
+            "demo.user"
+          ],
+          "status": "In Testing"
+        },
+        {
+          "ref": "#3",
+          "subject": "Demo task 3",
+          "assignees": [
+            "demo.user"
+          ],
+          "status": "Done"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "ref": "#1",
+      "subject": "Demo task 1",
+      "assignees": [
+        "demo.user"
+      ],
+      "status": "Done",
+      "sprint": "sprint-1",
+      "point": 2
+    },
+    {
+      "ref": "#2",
+      "subject": "Demo task 2",
+      "assignees": [
+        "demo.user"
+      ],
+      "status": "In Testing",
+      "sprint": "sprint-1",
+      "point": null
+    },
+    {
+      "ref": "#3",
+      "subject": "Demo task 3",
+      "assignees": [
+        "demo.user"
+      ],
+      "status": "Done",
+      "sprint": "sprint-1",
+      "point": 0
+    }
+  ]
+}

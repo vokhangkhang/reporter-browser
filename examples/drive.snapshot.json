@@ -1,0 +1,11 @@
+{
+  "origin": "https://pm.example.com",
+  "project": "demo-project",
+  "assignee": "demo.user",
+  "collectedAt": "2026-10-31T00:00:00Z",
+  "period": "2026-10",
+  "complete": true,
+  "taskRefs": [
+    "#1"
+  ]
+}
